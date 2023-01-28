@@ -2,6 +2,7 @@ import openai
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
+from config import TELEGRAM_TOKEN, OPENAI_TOKEN
 
 openai.api_key = OPENAI_TOKEN
 
