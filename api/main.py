@@ -3,6 +3,8 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
+openai.api_key = OPENAI_TOKEN
+
 bot = Bot(TELEGRAM_TOKEN)
 dp = Dispatcher(bot)
 
