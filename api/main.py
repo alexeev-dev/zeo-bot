@@ -1,4 +1,3 @@
-import pandas as dp
 import openai
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
